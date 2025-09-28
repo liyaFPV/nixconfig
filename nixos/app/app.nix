@@ -28,5 +28,6 @@
     chromium
     filezilla
     nautilus
+    kitty
   ];
 }
