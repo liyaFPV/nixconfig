@@ -27,5 +27,6 @@
     vlc
     chromium
     filezilla
+    nautilus
   ];
 }
