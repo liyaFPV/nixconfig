@@ -9,7 +9,7 @@
           type = "table";
           format = "gpt";
           partitions = [
-            # ESP раздел для загрузчика (не шифруется)
+            # ESP раздел для загрузчика
             {
               name = "ESP";
               start = "0";
@@ -20,8 +20,8 @@
                 format = "vfat";
                 mountpoint = "/boot";
               };
-            },
-            # Основной раздел с LUKS шифрованием (весь остальной диск)
+            }
+            # Основной раздел с LUKS шифрованием
             {
               name = "luks";
               start = "512M";
