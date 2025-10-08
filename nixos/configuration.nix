@@ -5,7 +5,6 @@
   imports = [
     ./hardware-configuration.nix
     ./app/app.nix
-    ./disko-config.nix
   ];
 
   disko.enableConfig = true;
