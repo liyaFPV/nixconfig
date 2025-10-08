@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 set -e
 
@@ -14,7 +14,7 @@ read
 # Копируем конфиги в правильное место
 echo "Копируем конфигурационные файлы..."
 sudo mkdir -p /mnt/etc/nixos
-sudo cp -r ./* /mnt/etc/nixos/
+sudo cp -r nixos/* /mnt/etc/nixos/
 
 # Проверяем наличие необходимых файлов
 echo "Проверяем файлы конфигурации..."
