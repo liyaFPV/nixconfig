@@ -1,6 +1,12 @@
 {config, pkgs, ...}:
 
 {
+	imports =
+    [
+      ./home.nix
+      ./zsh.nix
+    ];
+
   environment.systemPackages = [
 	pkgs.gedit
 	pkgs.kitty
@@ -9,5 +15,7 @@
 	pkgs.waybar
 	pkgs.rofi
 	pkgs.git
+	pkgs.vscode
+	pkgs.telegram-desktop
  ];
 }

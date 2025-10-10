@@ -10,7 +10,7 @@
       ./hardware-configuration.nix
       ./home.nix
       ./zsh.nix
-      ./app.nix
+      ./app/app.nix
     ];
 
   # Bootloader.
