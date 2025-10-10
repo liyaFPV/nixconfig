@@ -1,0 +1,16 @@
+
+configuration {
+    modi: "drun,run,window";
+    show-icons: true;
+    display-drun: "  Apps:";
+    drun-display-format: "{icon} {name}";
+    terminal: "kitty";
+    theme: "gruvbox-dark";
+    font: "JetBrains Mono 12";
+    lines: 10;
+    columns: 1;
+    cycle: true;
+    sorting-method: fzf;
+    matching: fuzzy;
+    hover-select: true;
+}
