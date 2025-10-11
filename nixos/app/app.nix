@@ -3,7 +3,6 @@
 {
 	imports =
     [
-	  ./git.nix
       ./home.nix
       ./zsh.nix
     ];
@@ -21,5 +20,6 @@
 	pkgs.htop
 	pkgs.neofetch
 	pkgs.hyprpaper
+	pkgs.git
  ];
 }
