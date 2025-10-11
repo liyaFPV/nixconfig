@@ -13,9 +13,12 @@
 	pkgs.nautilus
 	pkgs.firefox
 	pkgs.waybar
-	pkgs.rofi
+	pkgs.rofi-wayland
 	pkgs.git
 	pkgs.vscode
 	pkgs.telegram-desktop
+	pkgs.htop
+	pkgs.neofetch
+	pkgs.hyprpaper
  ];
 }
