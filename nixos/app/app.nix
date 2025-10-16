@@ -7,6 +7,8 @@
       ./zsh.nix
     ];
 
+  environment.systemPackages = with pkgs; [ vscode ];
+
   environment.systemPackages = [
 	pkgs.gedit
 	pkgs.kitty
@@ -20,6 +22,6 @@
 	pkgs.neofetch
 	pkgs.hyprpaper
 	pkgs.git
-	pkgs.vscode
+
  ];
 }
