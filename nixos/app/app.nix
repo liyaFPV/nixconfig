@@ -14,7 +14,7 @@
 	pkgs.firefox
 	pkgs.waybar
 	pkgs.rofi-wayland
-	pkgs.gitЫ
+	pkgs.git
 	pkgs.telegram-desktop
 	pkgs.htop
 	pkgs.neofetch
