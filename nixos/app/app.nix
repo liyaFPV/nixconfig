@@ -20,5 +20,6 @@
 	pkgs.neofetch
 	pkgs.hyprpaper
 	pkgs.git
+	pkgs.vscode
  ];
 }
