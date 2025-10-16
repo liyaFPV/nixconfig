@@ -7,8 +7,6 @@
       ./zsh.nix
     ];
 
-  environment.systemPackages = with pkgs; [ vscode ];
-
   environment.systemPackages = [
 	pkgs.gedit
 	pkgs.kitty
