@@ -8,7 +8,6 @@
     ];
 
   environment.systemPackages = [
-	pkgs.gedit
 	pkgs.kitty
 	pkgs.nautilus
 	pkgs.firefox
