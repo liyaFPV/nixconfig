@@ -1,12 +1,14 @@
-@import "themes/gruvbox-dark.rasi"
+// Импорт темы ДО конфигурации
+@import "gruvbox-dark"
+
 configuration {
+    // Убрал дублирование modi, оставил с power режимом
     modi: "drun,run,window,power:~/.config/rofi/scripts/power.sh";
-    modi: "drun,run,window";
+    
     show-icons: true;
     display-drun: "  Apps:";
     drun-display-format: "{icon} {name}";
     terminal: "kitty";
-    theme: "themes/gruvbox-dark.rasi";
     font: "JetBrains Mono 12";
     lines: 10;
     columns: 1;
