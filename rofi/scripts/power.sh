@@ -2,7 +2,7 @@
 
 
 chosen=$(echo -e " Выключить\n Перезагрузить\n󰍃 Выйти" | \
-  rofi -dmenu -i -p "Питание:" -theme ~/.config/rofi/themes/gruvbox-dark.rasi)
+  rofi -dmenu -i -p "Питание:")
 
 case "$chosen" in
   " Выключить") systemctl poweroff ;;
