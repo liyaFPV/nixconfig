@@ -18,5 +18,6 @@
 	pkgs.htop
 	pkgs.neofetch
 	pkgs.hyprpaper
+	pkgs.freecad-wayland
  ];
 }
