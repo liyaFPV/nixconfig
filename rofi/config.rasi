@@ -1,19 +1,28 @@
-// Импорт темы ДО конфигурации
-@import "gruvbox-dark"
-
 configuration {
-    // Убрал дублирование modi, оставил с power режимом
-    modi: "drun,run,window,power:~/.config/rofi/scripts/power.sh";
-    
-    show-icons: true;
-    display-drun: "  Apps:";
-    drun-display-format: "{icon} {name}";
-    terminal: "kitty";
-    font: "JetBrains Mono 12";
-    lines: 10;
-    columns: 1;
-    cycle: true;
-    sorting-method: fzf;
-    matching: fuzzy;
-    hover-select: true;
+  show-icons:      true;
+  icon-theme:      "Papirus";
+  cycle:           true;
+  disable-history: false;
+  monitor:         "-4";
+  modi:            "drun";
+  display-drun:    "apps";
+}   
+
+/* Fixes for rofi 1.7.0 */
+window {
+  border: 0px;
 }
+inputbar {
+  spacing: -4px;
+}
+listview {
+  columns: 1;
+  scrollbar: false;
+  border: 0px;
+}
+element-text,
+element-icon {
+  background-color: transparent;
+}
+
+@import "themes/shared/active-colorscheme.rasi"
