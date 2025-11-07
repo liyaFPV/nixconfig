@@ -19,5 +19,8 @@
 	pkgs.neofetch
 	pkgs.hyprpaper
 	pkgs.freecad-wayland
+	pkgs.blender
+	pkgs.vscode
+	pkgs.flatpak
  ];
 }
