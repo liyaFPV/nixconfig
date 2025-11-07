@@ -31,7 +31,8 @@
 	pkgs.libreoffice-qt6
 	pkgs.filezilla
 	pkgs.arduino-ide
-	pkgs.freecad-wayland
 	pkgs.obsidian
+	pkgs.python314
+	pkgs.gimp
  ];
 }
