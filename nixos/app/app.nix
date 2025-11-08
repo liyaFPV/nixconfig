@@ -34,5 +34,6 @@
 	pkgs.obsidian
 	pkgs.python314
 	pkgs.gimp
+	pkgs.kdePackages.kdenlive
  ];
 }
