@@ -12,7 +12,7 @@ cp -r hypr ~/.config/
 cp -r rofi ~/.config/
 cd /etc/nixos
 
-sudo nixos-rebuild switch --flake ./
+sudo nixos-rebuild switch --flake /etc/nixos
 
 read -p "выполнить перезапуск? (y/n): " -n 1 -r
 echo
